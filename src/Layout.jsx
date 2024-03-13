@@ -8,7 +8,7 @@ import Section1 from './components/Section1.jsx'
 function App() {
   return (
     <>
-      <div className='h-screen scroll-smooth ' >
+      <div className='h-screen scroll-smooth w-screen' >
         <Navbar />
         <Section1 />
         <Outlet />

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
     return (
         <>
-            <nav className='w-screen flex items-center h-[12%] justify-evenly mt-2  '>
+            <nav className='w-[100%] flex items-center h-[12%] justify-evenly mt-2  '>
                 <div className='basis-1/6 h-[100%]'>
                     <img src={logo} alt="Logo" width={100} />
                 </div>

@@ -28,7 +28,8 @@ const router = createBrowserRouter([
         element: <Community />,
       },
     ]
-  }
+  },
+  {}
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -6,7 +6,7 @@ import bg from '../assets/tbg.png'
 function Section1() {
     return (
         <>
-            <div className='flex justify-center gap-72 pt-10 h-[88%]' >
+            <div className='flex justify-center gap-72 pt-10 h-[88%] w-[100%] ' >
                 <div className=''>
                     <div>
                         <p className="font-bold text-transparent text-6xl bg-clip-text text-white" >
