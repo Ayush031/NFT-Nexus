@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import diamond from '../assets/tdiamond.png'
 import bg from '../assets/tbg.png'
 
 function Section1() {
+        
     return (
         <>
             <div className='flex justify-center gap-72 pt-10 h-[88%] w-[100%] ' >

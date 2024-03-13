@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+function Ecommerce() {
     return (
         <>
         About Neftnex
@@ -8,4 +8,4 @@ function About() {
     )
 }
 
-export default About
+export default Ecommerce
