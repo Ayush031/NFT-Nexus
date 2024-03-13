@@ -2,9 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import a1 from '../assets/a1.jpg'
-import a2 from '../assets/a2.jpg'
 import a3 from '../assets/a3.jpg'
 import a4 from '../assets/a4.jpg'
+import a2 from '../assets/a2.jpg'
 import a5 from '../assets/a5.jpg'
 import a6 from '../assets/a6.jpg'
 
@@ -28,7 +28,7 @@ function Marketplace() {
                     View All
                 </div>
             </div>
-            <hr className='mt-3 bg-gray-600 text-center w-1/2 border-none h-1' />
+            <hr className='mt-3 bg-gray-600 text-center w-full border-none h-1' />
             <div className='p-5 pt-0 pl-20'>
                 <div className='flex justify-between gap-20 '>
                     <div className=' rounded-xl p-6 basis-1/2'>
@@ -161,6 +161,45 @@ function Marketplace() {
                                 <h2 className="card-title">Emotional Loki</h2>
                                 <p>Loki Revealing his humanity</p>
                                 <p>1.50 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a5} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Mighty Thor!</h2>
+                                <p>Thor about to push his limits</p>
+                                <p>6.34 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a6} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Scarlet</h2>
+                                <p>Makeup of Scarlet, Embrace it!</p>
+                                <p>5.50 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a2} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Super Spider</h2>
+                                <p>Spider Revealing his Power</p>
+                                <p>4.50 Eth</p>
                                 <div className="card-actions">
                                     <button className="btn btn-primary">Buy Now</button>
                                 </div>
