@@ -3,7 +3,10 @@ import React from 'react'
 function Ecommerce() {
     return (
         <>
-        About Neftnex
+            <li>Sell customized Avengers NFT Merchandise</li>
+            <li>Trending Merchs Carousel Auto</li>
+            <li>Top Filter</li>
+            <li>Listing of T-Shirts</li>
         </>
     )
 }

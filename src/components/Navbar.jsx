@@ -13,7 +13,7 @@ function Navbar() {
                 <div className='flex justify-evenly list-none basis-1/3'>
                     <NavLink to="/home" className="btn btn-outline btn-info" >Home</NavLink>
                     <NavLink to="/marketplace" className="btn btn-outline btn-info" >MarketPlace</NavLink>
-                    <NavLink to="/ecommerce" className="btn btn-outline btn-info" >Ecommerce</NavLink>
+                    <NavLink to="/ecommerce" className="btn btn-outline btn-info" >Merchandise</NavLink>
                     <NavLink to="/community" className="btn btn-outline btn-info" >Community</NavLink>
                 </div>
             </nav>
