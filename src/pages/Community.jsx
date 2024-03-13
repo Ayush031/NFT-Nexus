@@ -1,5 +1,5 @@
 import React from 'react'
-
+import comm from '../assets/community.jpg'
 function Community() {
     return (
         <>
@@ -7,6 +7,9 @@ function Community() {
             <li>Communities categorized on basis of NFTs</li>
             <li>Chat Section</li>
             <li>Trending Communities</li>
+            <div>
+                <img src={comm} className='' />
+            </div>
         </>
     )
 }
