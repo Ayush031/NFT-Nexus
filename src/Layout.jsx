@@ -20,7 +20,7 @@ function Layout() {
           <Routes>
             <Route index element={<Home />} />
             <Route path='/home' element={<Home />} />
-            <Route path='/ecommerce' element={<Ecommerce />} />
+            <Route path='/merchandise' element={<Ecommerce />} />
             <Route path='/marketplace' element={<Marketplace />} />
             <Route path='/community' element={<Community />} />
             <Route path='*' element={<NoPage />} />
