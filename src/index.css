@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value for the distance you want the element to move */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-moveUpDown {
+    animation: moveUpDown 2s ease-in-out infinite; /* Adjust duration and timing function as needed */
+  }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Nftcard() {
   return (
     <>
-      Hello
+        
     </>
   )
 }
 
-export default App
+export default Nftcard
