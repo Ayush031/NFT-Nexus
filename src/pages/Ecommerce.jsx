@@ -15,7 +15,6 @@ import m11 from '../assets/Merch/m11.jpg'
 import m12 from '../assets/Merch/m12.jpg'
 import m13 from '../assets/Merch/m13.jpg'
 import m14 from '../assets/Merch/m14.jpg'
-import m15 from '../assets/Merch/m15.jpg'
 
 function Ecommerce() {
     const product = [
@@ -88,11 +87,6 @@ function Ecommerce() {
             img: m14,
             name: "Guardians of the Gallery",
             price: 3999,
-        },
-        {
-            img: m15,
-            name: "Mjolnir's Minters",
-            price: 4999,
         }
     ]    
 
