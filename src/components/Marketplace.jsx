@@ -21,21 +21,21 @@ function Marketplace() {
                     View All
                 </div>
             </div>
-
-            <div className='p-5 pl-20'>
-                <div className='flex justify-between gap-24 '>
-                    <div className='basis-1/2'>
+                <hr className='mt-3 bg-gray-600 text-center w-100 border-nonw' />
+            <div className='p-5 pt-0 pl-20'>
+                <div className='flex justify-between gap-20 '>
+                    <div className=' rounded-xl p-6 basis-1/2'>
                         <div className='flex items-center justify-between basis-1/2 '>
                             <div className='flex gap-10'>
                                 <span>Rank</span>
                                 <span>Collection</span>
                             </div>
-                            <div className='flex gap-14'>
+                            <div className='flex gap-20 pr-4'>
                                 <span>Floor Price</span>
                                 <span>Volume</span>
                             </div>
                         </div>
-                        <div className='basis-1/2 flex list-none justify-betweenpt-1'>
+                        <div className='basis-1/2 flex list-none justify-betweenpt-1' text-xl font-semibold text-white>
                             <div className='flex basis-1/2 items-center gap-10 text-white text-xl font-semibold '>
                                 <div>
                                     <li className='p-2' >1</li>
@@ -44,7 +44,7 @@ function Marketplace() {
                                     <li className='p-2' >4</li>
                                     <li className='p-2' >5</li>
                                 </div>
-                                <div>
+                                <div className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-600' >
                                     <li className='p-2' >Iron Xsuite</li>
                                     <li className='p-2' >Captain Mythic</li>
                                     <li className='p-2' >Hulk</li>
@@ -52,45 +52,45 @@ function Marketplace() {
                                     <li className='p-2' > Lighting Hammer </li>
                                 </div>
                             </div>
-                            <div className='flex basis-1/2 justify-end gap-24 pr-3 '>
-                                <div>
-                                    <li className='p-2' >1</li>
-                                    <li className='p-2' >2</li>
-                                    <li className='p-2' >3</li>
-                                    <li className='p-2' >4</li>
-                                    <li className='p-2' >5</li>
+                            <div className='flex basis-1/2 justify-end gap-16 pr-1 items-center'>
+                                <div className='text-xl font-semibold text-pink-200'  >
+                                    <li className='p-2' >0.02 Eth</li>
+                                    <li className='p-2' >0.20 Eth</li>
+                                    <li className='p-2' >1.53 Eth</li>
+                                    <li className='p-2' >3.94 Eth</li>
+                                    <li className='p-2' >0.89 Eth</li>
                                 </div>
-                                <div>
-                                    <li className='p-2' >1</li>
-                                    <li className='p-2' >2</li>
-                                    <li className='p-2' >3</li>
-                                    <li className='p-2' >4</li>
-                                    <li className='p-2' >5</li>
+                                <div className='text-xl font-semibold text-pink-200' >
+                                    <li className='p-2' >17 Eth</li>
+                                    <li className='p-2' >89 Eth</li>
+                                    <li className='p-2' >51 Eth</li>
+                                    <li className='p-2' >68 Eth</li>
+                                    <li className='p-2' >79 Eth</li>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='basis-1/2'>
+                    <div className=' rounded-xl p-6 basis-1/2'>
                         <div className='flex items-center justify-between basis-1/2 '>
                             <div className='flex gap-10'>
                                 <span>Rank</span>
                                 <span>Collection</span>
                             </div>
-                            <div className='flex gap-14'>
+                            <div className='flex gap-20 pr-6'>
                                 <span>Floor Price</span>
                                 <span>Volume</span>
                             </div>
                         </div>
-                        <div className='basis-1/2 flex list-none justify-betweenpt-1'>
+                        <div className='basis-1/2 flex list-none justify-between pt-1'>
                             <div className='flex basis-1/2 items-center gap-10 text-white text-xl font-semibold '>
                                 <div>
-                                    <li className='p-2' >1</li>
-                                    <li className='p-2' >2</li>
-                                    <li className='p-2' >3</li>
-                                    <li className='p-2' >4</li>
-                                    <li className='p-2' >5</li>
+                                    <li className='p-2' >6</li>
+                                    <li className='p-2' >7</li>
+                                    <li className='p-2' >8</li>
+                                    <li className='p-2' >9</li>
+                                    <li className='p-2' >10</li>
                                 </div>
-                                <div>
+                                <div className='text-transparent  bg-clip-text bg-gradient-to-r from-orange-400 to-purple-600' >
                                     <li className='p-2' >Iron Xsuite</li>
                                     <li className='p-2' >Captain Mythic</li>
                                     <li className='p-2' >Hulk</li>
@@ -98,25 +98,24 @@ function Marketplace() {
                                     <li className='p-2' > Lighting Hammer </li>
                                 </div>
                             </div>
-                            <div className='flex basis-1/2 justify-end gap-24 pr-3 '>
-                                <div>
-                                    <li className='p-2' >1</li>
-                                    <li className='p-2' >2</li>
-                                    <li className='p-2' >3</li>
-                                    <li className='p-2' >4</li>
-                                    <li className='p-2' >5</li>
+                            <div className='flex basis-1/2 justify-end gap-16 pr-3 items-center'>
+                                <div className='text-xl font-semibold text-pink-200' >
+                                    <li className='p-2' >0.43 Eth</li>
+                                    <li className='p-2' >1.70 Eth</li>
+                                    <li className='p-2' >0.56 Eth</li>
+                                    <li className='p-2' >4.19 Eth</li>
+                                    <li className='p-2' >0.92 Eth</li>
                                 </div>
-                                <div>
-                                    <li className='p-2' >1</li>
-                                    <li className='p-2' >2</li>
-                                    <li className='p-2' >3</li>
-                                    <li className='p-2' >4</li>
-                                    <li className='p-2' >5</li>
+                                <div className='text-xl font-semibold text-pink-200' >
+                                    <li className='p-2' >82 Eth</li>
+                                    <li className='p-2' >67 Eth</li>
+                                    <li className='p-2' >18 Eth</li>
+                                    <li className='p-2' >71 Eth</li>
+                                    <li className='p-2' >95 Eth</li>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
                 </div>
             </div>
         </>
