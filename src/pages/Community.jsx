@@ -8,7 +8,7 @@ function Community() {
             <li>Chat Section</li>
             <li>Trending Communities</li>
             <div>
-                <img src={comm} className='' />
+             <img src={comm} className='' />
             </div>
         </>
     )
