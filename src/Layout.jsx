@@ -16,7 +16,7 @@ function Layout() {
     <>
       <div className='h-screen scroll-smooth w-full' >
         <BrowserRouter>
-        <Navbar/>
+          <Navbar />
           <Routes>
             <Route index element={<Home />} />
             <Route path='/home' element={<Home />} />

@@ -1,5 +1,10 @@
 import React from 'react'
-import { Product } from '../components/Product'
+import BrandCarousel from '../components/BrandCarousel.jsx';
+
+import TrendingMerch from '../components/TrendingMerch.jsx';
+import FeaturedThemes from '../components/FeaturedThemes.jsx'
+import FeaturedAvengers from '../components/FeaturedAvengers.jsx'
+import FeaturedProducts from '../components/FeaturedProducts.jsx';
 
 import m1 from '../assets/Merch/m1.jpg'
 import m2 from '../assets/Merch/m2.jpg'
@@ -16,8 +21,21 @@ import m12 from '../assets/Merch/m12.jpg'
 import m13 from '../assets/Merch/m13.jpg'
 import m14 from '../assets/Merch/m14.jpg'
 
+import thm1 from '../assets/Merch/thm1.webp'
+import thm2 from '../assets/Merch/thm2.jpg'
+import thm3 from '../assets/Merch/thm3.jpg'
+import thm4 from '../assets/Merch/thm1.avif'
+import thm5 from '../assets/Merch/thm2.webp'
+
+import b1 from '../assets/Brands/b1.webp'
+import b2 from '../assets/Brands/b2.webp'
+import b3 from '../assets/Brands/b3.webp'
+import b4 from '../assets/Brands/b4.webp'
+import b5 from '../assets/Brands/b5.webp'
+import b6 from '../assets/Brands/b6.webp'
+
 function Ecommerce() {
-    const product = [
+    const products = [
         {
             img: m1,
             name: "Infinity Mint",
@@ -88,37 +106,28 @@ function Ecommerce() {
             name: "Guardians of the Gallery",
             price: 3999,
         }
-    ]    
+    ]
+
+    const avengers = [
+        { img: thm1, name: "Tony Stark" },
+        { img: thm2, name: "Scarlett Johnson" },
+        { img: thm3, name: "Spider Man" },
+        { img: thm4, name: "Captain America" },
+        { img: thm5, name: "Hulk" },
+    ]
+
+    const brands = [
+        b1, b2, b3, b4, b5, b6
+    ]
 
     return (
         <>
-            <div className='h-[88%] pl-10 pr-10'>
-                <div>                    
-                    <div className="text-5xl text-center m-5 font-bold text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-orange-500" >Trending Merch</div>
-                </div>
-                <div>
-                    <p>Featured Themes</p>
-                </div>
-                <div>
-                    <p>featured Categories</p>
-                    <div>Iron Man</div>
-                    <div>Scarlett Johnson</div>
-                    <div>Doctor Strange</div>
-                    <div>Captain America</div>
-                    <div>Hulk</div>
-                </div>
-                <div>
-                    <p>Featured Brands (auto carousel)</p>
-                </div>
-                <div>
-                    <div className="text-5xl text-center m-5 font-bold text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-orange-500" >Featured Products</div>                    
-
-                    <div className='flex flex-wrap gap-8 justify-center'>
-                        {product.map(prd => (
-                            < Product image={prd.img} name={prd.name} price={prd.price} />
-                        ))}
-                    </div>
-                </div>
+            <div className='pl-10 pr-10'>
+                {/* <TrendingMerch />
+                <FeaturedThemes /> */}
+                <FeaturedAvengers avengers={avengers} />
+                {/* <BrandCarousel brands={brands}  /> */}
+                <FeaturedProducts products={products} />
             </div>
         </>
     )
