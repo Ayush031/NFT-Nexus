@@ -7,8 +7,8 @@ function Section1() {
         
     return (
         <>
-            <div className='flex justify-center gap-72 pt-10 h-[88%] w-[100%] ' >
-                <div className=''>
+            <div className='flex items-center justify-center gap-72 pt-10 h-[88%] w-[100%] ' >
+                <div>
                     <div>
                         <p className="font-bold text-transparent text-6xl bg-clip-text text-white" >
                             <span className="text-8xl font-bold text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-orange-600">Discover</span>
@@ -29,7 +29,8 @@ function Section1() {
                     </div>
                 </div>
             </div >
-
+            <p> ADD Market and crypto news sections </p>
+            
         </>
     )
 }
