@@ -39,7 +39,7 @@ export function Product(props) {
                 <Button
                     ripple={false}
                     fullWidth={true}
-                    className="bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100">
+                    className="border border-gray-400 shadow-xl bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100">
                     View Details
                 </Button>
             </CardFooter>

@@ -123,8 +123,8 @@ function Ecommerce() {
     return (
         <>
             <div className='pl-10 pr-10'>
-                {/* <TrendingMerch />
-                <FeaturedThemes /> */}
+                {/* <TrendingMerch /> */}
+                <FeaturedThemes /> 
                 <FeaturedAvengers avengers={avengers} />
                 {/* <BrandCarousel brands={brands}  /> */}
                 <FeaturedProducts products={products} />
