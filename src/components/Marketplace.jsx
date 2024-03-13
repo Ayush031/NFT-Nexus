@@ -166,7 +166,7 @@ function Marketplace() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                        <div className=" mt-2  card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
                             <figure className="px-10 pt-10">
                                 <img src={a5} alt="Shoes" className="rounded-xl" />
                             </figure>
@@ -179,7 +179,7 @@ function Marketplace() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                        <div className="mt-2 card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
                             <figure className="px-10 pt-10">
                                 <img src={a6} alt="Shoes" className="rounded-xl" />
                             </figure>
@@ -192,7 +192,7 @@ function Marketplace() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                        <div className="mt-2 card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
                             <figure className="px-10 pt-10">
                                 <img src={a2} alt="Shoes" className="rounded-xl" />
                             </figure>
