@@ -2,7 +2,6 @@ import React from 'react'
 import logo from '../assets/tlogo.png'
 import { NavLink } from "react-router-dom";
 
-
 function Navbar() {
     return (
         <>

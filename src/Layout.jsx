@@ -1,6 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 import Home from './pages/Home';
 import Marketplace from './pages/Marketplace';
 import Ecommerce from './pages/Ecommerce';
@@ -13,6 +16,7 @@ function Layout() {
     <>
       <div className='h-screen scroll-smooth w-full' >
         <BrowserRouter>
+        <Navbar/>
           <Routes>
             <Route index element={<Home />} />
             <Route path='/home' element={<Home />} />
@@ -21,6 +25,7 @@ function Layout() {
             <Route path='/community' element={<Community />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </div>
     </>
