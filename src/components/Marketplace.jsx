@@ -1,6 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import a1 from '../assets/a1.jpg'
+import a2 from '../assets/a2.jpg'
+import a3 from '../assets/a3.jpg'
+import a4 from '../assets/a4.jpg'
+import a5 from '../assets/a5.jpg'
+import a6 from '../assets/a6.jpg'
+
 function Marketplace() {
     return (
         <>
@@ -21,7 +28,7 @@ function Marketplace() {
                     View All
                 </div>
             </div>
-                <hr className='mt-3 bg-gray-600 text-center w-100 border-nonw' />
+            <hr className='mt-3 bg-gray-600 text-center w-1/2 border-none h-1' />
             <div className='p-5 pt-0 pl-20'>
                 <div className='flex justify-between gap-20 '>
                     <div className=' rounded-xl p-6 basis-1/2'>
@@ -45,7 +52,7 @@ function Marketplace() {
                                     <li className='p-2' >5</li>
                                 </div>
                                 <div className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-600' >
-                                    <li className='p-2' >Iron Xsuite</li>
+                                    <li className='p-2' >Iron Xsuite </li>
                                     <li className='p-2' >Captain Mythic</li>
                                     <li className='p-2' >Hulk</li>
                                     <li className='p-2' >Doctor Seek</li>
@@ -112,6 +119,50 @@ function Marketplace() {
                                     <li className='p-2' >18 Eth</li>
                                     <li className='p-2' >71 Eth</li>
                                     <li className='p-2' >95 Eth</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='mt-8' >
+                    <p className='text-white text-3xl' >Top Collections</p>
+                    <div className='flex flex-wrap justify-between mt-5 '>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a1} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">HiSpy!</h2>
+                                <p>Spiderman in the rain</p>
+                                <p>2.34 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a3} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Iron Xsuite!</h2>
+                                <p>Attitude of Ironman Suite</p>
+                                <p>4.50 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card w-96 bg-base-100 shadow-xl border border-cyan-700 ">
+                            <figure className="px-10 pt-10">
+                                <img src={a4} alt="Shoes" className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-center">
+                                <h2 className="card-title">Emotional Loki</h2>
+                                <p>Loki Revealing his humanity</p>
+                                <p>1.50 Eth</p>
+                                <div className="card-actions">
+                                    <button className="btn btn-primary">Buy Now</button>
                                 </div>
                             </div>
                         </div>
