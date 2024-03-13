@@ -23,7 +23,7 @@ function Layout() {
             <Route path='/merchandise' element={<Ecommerce />} />
             <Route path='/marketplace' element={<Marketplace />} />
             <Route path='/community' element={<Community />} />
-            <Route path='*' element={<NoPage />} />
+            {/* <Route path='*' element={<NoPage />} /> */}
           </Routes>
           <Footer/>
         </BrowserRouter>
