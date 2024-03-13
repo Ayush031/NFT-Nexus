@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import diamond from '../assets/tdiamond.png'
+import bg from '../assets/tbg.png'
 
 function Section1() {
     return (
         <>
-            <div className='flex justify-center gap-72 pt-10 h-[88%]'>
+            <div className='flex justify-center gap-72 pt-10 h-[88%]' >
                 <div className=''>
                     <div>
                         <p className="font-bold text-transparent text-6xl bg-clip-text text-white" >
@@ -18,7 +19,7 @@ function Section1() {
                 </div>
                 <div className='flex justify-between basis-1/4 ' >
                     <div className='animate-moveUpDown'>
-                        <img src={diamond} width={200} />
+                        <img src={diamond} width={200} className="" />
                     </div>
                     <div className='text-xl flex flex-col gap-4 mt-5'>
                         <p className='  text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-orange-600' >26K+ <br /> <span className='text-white text-sm' > Artwork</span></p>
