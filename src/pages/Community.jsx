@@ -78,6 +78,7 @@ function Community() {
 
     return (
         <>
+        
             <div className='p-10 flex flex-col gap-16'>
                 <div className='h-[110%] flex'>
                     <div className='basis-1/4 flex flex-col gap-5 bg-gradient-to-l from-pink-600 to-orange-300 p-7 rounded-l-3xl '>

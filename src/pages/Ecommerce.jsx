@@ -34,6 +34,22 @@ import b4 from '../assets/Brands/b4.webp'
 import b5 from '../assets/Brands/b5.webp'
 import b6 from '../assets/Brands/b6.webp'
 
+import a1 from '../assets/a1.jpg'
+import a2 from '../assets/a2.jpg'
+import a3 from '../assets/a3.jpg'
+import a4 from '../assets/a4.jpg'
+import a5 from '../assets/a5.jpg'
+import a6 from '../assets/a6.jpg'
+import a7 from '../assets/a7.jpg'
+import a8 from '../assets/a8.jpg'
+import a9 from '../assets/a9.jpg'
+import a10 from '../assets/a10.jpg'
+import a11 from '../assets/a11.jpg'
+import a12 from '../assets/a12.jpg'
+import a13 from '../assets/a13.jpg'
+
+
+
 function Ecommerce() {
     const products = [
         {
@@ -109,11 +125,11 @@ function Ecommerce() {
     ]
 
     const avengers = [
-        { img: thm1, name: "Tony Stark" },
-        { img: thm2, name: "Scarlett Johnson" },
-        { img: thm3, name: "Spider Man" },
-        { img: thm4, name: "Captain America" },
-        { img: thm5, name: "Hulk" },
+        { img: a8, name: "Hawkeye" },
+        { img: a13, name: "Black Widow" },
+        { img: a3, name: "Iron Man" },
+        { img: a12, name: "Captain America" },
+        { img: a10, name: "Hulk" },
     ]
 
     const brands = [
@@ -122,6 +138,7 @@ function Ecommerce() {
 
     return (
         <>
+        
             <div className='pl-10 pr-10'>
                 {/* <TrendingMerch /> */}
                 <FeaturedThemes /> 

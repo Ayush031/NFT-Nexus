@@ -1,10 +1,11 @@
 import React, { useRef } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import diamond from '../assets/tdiamond.png'
-import bg from '../assets/tbg.png'
 
 function Section1() {
-        
+
+    const markets = [{ Name: "Top Gainers" }, { Name: "Top Decliners" }, { Name: "New Markets" }, { Name: "Top by Market Cap" }]
+
     return (
         <>
             <div className='flex items-center justify-center gap-72 pt-10 h-[88%] w-[100%] ' >
@@ -29,8 +30,24 @@ function Section1() {
                     </div>
                 </div>
             </div >
-            <p> ADD Market and crypto news sections </p>
-            
+            {/* <div className='pl-36' >
+                <div className='flex-col justify-center items-center gap-5 '>
+                    <h1 className='text-white text-6xl'>Markets</h1>
+                    <Link to='https://finance.yahoo.com/crypto/' className='text-red-300 text-xl' >More Markets </Link>
+                </div>
+                <div className='flex justify-start gap-8 mt-8'>
+                    {markets.map(market => (
+                        <div className='border rounded-3xl border-cyan-700 list-none text-center p-3 basis-1/6'>
+                            {market.Name}
+                        </div>
+                    ))}
+                </div>
+                <div className='flex h-auto justify-betweeen mt-10' >
+                    <div className='basis-1/5 h- bg-white'>
+                        
+                    </div>
+                </div>
+            </div> */}
         </>
     )
 }

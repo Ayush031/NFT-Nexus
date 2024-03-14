@@ -11,6 +11,7 @@ import a6 from '../assets/a6.jpg'
 function Marketplace() {
     return (
         <>
+        
             <div className='flex justify-center gap-40 ' >
                 <div className='flex border p-1 border-cyan-700 rounded-xl w-700'>
                     <div className='btn bg-cyan-700'>Trending</div>

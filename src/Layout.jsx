@@ -10,12 +10,18 @@ import Ecommerce from './pages/Ecommerce';
 import Community from './pages/Community';
 import NoPage from './pages/NoPage';
 
+import bgvideo from './assets/bgvideo.mp4'
+
 
 function Layout() {
   return (
     <>
+
       <div className='h-screen scroll-smooth w-full' >
         <BrowserRouter>
+          <video autoPlay loop muted id='video'>
+            <source src={bgvideo} type="video/mp4" />
+          </video>
           <Navbar />
           <Routes>
             <Route index element={<Home />} />
@@ -25,7 +31,7 @@ function Layout() {
             <Route path='/community' element={<Community />} />
             <Route path='*' element={<NoPage />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </BrowserRouter>
       </div>
     </>

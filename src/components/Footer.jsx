@@ -6,11 +6,11 @@ function Footer() {
   return (
     <>
 
-      <footer2 className=" mt-5 footer footer-center p-4 bg-base-300 text-base-content">
+      <footer className=" mt-5 footer footer-center p-4 bg-base-300 text-base-content">
         <aside>
           <p>Copyright © 2024 - All right reserved by Nft Nexus</p>
         </aside>
-      </footer2>
+      </footer>
     </>
   )
 }

@@ -1,5 +1,21 @@
 import React from 'react'
 
+import a1 from '../assets/a1.jpg'
+import a2 from '../assets/a2.jpg'
+import a3 from '../assets/a3.jpg'
+import a4 from '../assets/a4.jpg'
+import a5 from '../assets/a5.jpg'
+import a6 from '../assets/a6.jpg'
+import a7 from '../assets/a7.jpg'
+import a8 from '../assets/a8.jpg'
+import a9 from '../assets/a9.jpg'
+import a10 from '../assets/a10.jpg'
+import a11 from '../assets/a11.jpg'
+import a12 from '../assets/a12.jpg'
+import a13 from '../assets/a13.jpg'
+import { Link } from 'react-router-dom'
+
+
 function FeaturedThemes() {
     return (
         <>
@@ -19,23 +35,40 @@ function FeaturedThemes() {
                         <div>
                             <div className="mt-10">
                                 {/* Decorative image grid */}
-                                <div
-                                    aria-hidden="true"
-                                    className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
-                                >
+                                <div aria-hidden="true" className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
                                     <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                                         <div className="flex items-center space-x-6 lg:space-x-8">
                                             <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                                                        src={a1}
+                                                        className="h-full w-full object-cover object-center" />
+                                                </div>
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={a7}
+                                                        className="h-full w-full object-cover object-center"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={a13}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
                                                 </div>
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
+                                                        src={a9}
+                                                        alt=""
+                                                        className="h-full w-full object-cover object-center"
+                                                    />
+                                                </div>
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={a5}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
@@ -44,37 +77,14 @@ function FeaturedThemes() {
                                             <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
+                                                        src={a6}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
                                                 </div>
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                                                        src={a10}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
@@ -84,9 +94,9 @@ function FeaturedThemes() {
                                     </div>
                                 </div>
 
-                                <a href="#" className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700" >
-                                    Shop Collection
-                                </a>
+                                <Link to="" className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700" >
+                                    Scroll to Shop Collection
+                                </Link>
                             </div>
                         </div>
                     </div>
