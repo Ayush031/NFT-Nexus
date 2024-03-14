@@ -19,7 +19,7 @@ function Layout() {
 
       <div className='h-screen scroll-smooth w-full' >
         <BrowserRouter>
-          <video autoPlay loop muted id='video'>
+          <video autoPlay loop muted id='video' style={{ opacity: 0.5 }} >
             <source src={bgvideo} type="video/mp4" />
           </video>
           <Navbar />
