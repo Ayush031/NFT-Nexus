@@ -9,6 +9,7 @@ import a3 from '../assets/a3.jpg'
 import a4 from '../assets/a4.jpg'
 import a5 from '../assets/a5.jpg'
 import a6 from '../assets/a6.jpg'
+import a8 from '../assets/a8.jpg'
 
 function Community() {
 
@@ -60,12 +61,12 @@ function Community() {
 
     const communities = [
         {
-            name: "Loki Strikes",
+            name: "Hawkeye Champs",
             desc: "Want to have fun, let Get Together in the chatroom. See you there!!",
-            img: a4,
+            img: a8,
         },
         {
-            name: "Scarlett Fantasy",
+            name: "WidowVerse",
             desc: "Want to have fun, let Get Together in the chatroom. See you there!!",
             img: a6,
         },

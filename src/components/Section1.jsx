@@ -1,10 +1,29 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import diamond from '../assets/tdiamond.png'
 
 function Section1() {
 
     const markets = [{ Name: "Top Gainers" }, { Name: "Top Decliners" }, { Name: "New Markets" }, { Name: "Top by Market Cap" }]
+    const [stocks, setStocks] = useState([]);
+    useEffect(() => {
+        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&sparkline=true')
+            .then(response => response.json())
+            .then(data => {
+                const slicedData = data.slice(0, 10);
+                const stocksData = slicedData.map(stock => ({
+                    name: stock.name,
+                    symbol: stock.symbol,
+                    price: stock.current_price,
+                    imgUrl: stock.image,
+                    rank: stock.market_cap_rank
+                }));
+                setStocks(stocksData);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
 
     return (
         <>
@@ -37,15 +56,24 @@ function Section1() {
                 </div>
                 <div className='flex justify-start gap-8 mt-8'>
                     {markets.map(market => (
-                        <Link className='border rounded-3xl border-cyan-700 list-none text-center p-3 basis-1/6'>
+                        <div
+                            className='border rounded-3xl border-cyan-700 list-none text-center p-3 basis-1/6 cursor-pointer'                        >
                             {market.Name}
-                        </Link>
+                        </div>
                     ))}
                 </div>
-                <div className='flex h-auto justify-betweeen mt-10' >
-                    <div className='basis-1/5 h- bg-white'>
-                        
-                    </div>
+                <div className='flex justify-betweeen mt-10 flex-wrap gap-5' >
+                    {stocks.map((stock, index) => (
+                        <div key={index} className='basis-1/5 bg-cyan-100 flex flex-col justify-center text-center items-center gap-5 rounded-3xl  h-60 text-black'>
+                            <img src={stock.imgUrl} alt={stock.name} className='h-20' />
+                            <div>
+                                <p>{stock.name}</p>
+                                <p>{stock.symbol}</p>
+                                <p>${stock.price}</p>
+                                <p>Market Rank: {stock.rank}</p>
+                            </div>
+                        </div>
+                    ))}                    
                 </div>
             </div>
         </>
