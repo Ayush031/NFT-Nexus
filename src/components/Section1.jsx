@@ -30,7 +30,7 @@ function Section1() {
                     </div>
                 </div>
             </div >
-            {/* <div className='pl-36' >
+            <div className='pl-36' >
                 <div className='flex-col justify-center items-center gap-5 '>
                     <h1 className='text-white text-6xl'>Markets</h1>
                     <Link to='https://finance.yahoo.com/crypto/' className='text-red-300 text-xl' >More Markets </Link>
@@ -47,7 +47,7 @@ function Section1() {
                         
                     </div>
                 </div>
-            </div> */}
+            </div>
         </>
     )
 }
