@@ -37,9 +37,9 @@ function Section1() {
                 </div>
                 <div className='flex justify-start gap-8 mt-8'>
                     {markets.map(market => (
-                        <div className='border rounded-3xl border-cyan-700 list-none text-center p-3 basis-1/6'>
+                        <Link className='border rounded-3xl border-cyan-700 list-none text-center p-3 basis-1/6'>
                             {market.Name}
-                        </div>
+                        </Link>
                     ))}
                 </div>
                 <div className='flex h-auto justify-betweeen mt-10' >

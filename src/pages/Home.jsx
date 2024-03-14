@@ -5,8 +5,7 @@ import bgvideo from '../assets/bgvideo.mp4';
 
 function Home() {
     return (
-        <>
-            
+        <>        
             <Section1 />
         </>
     )
