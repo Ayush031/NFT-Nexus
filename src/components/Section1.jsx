@@ -64,7 +64,7 @@ function Section1() {
                 </div>
                 <div className='flex justify-betweeen mt-10 flex-wrap gap-5' >
                     {stocks.map((stock, index) => (
-                        <div key={index} className='basis-1/5 bg-cyan-100 flex flex-col justify-center text-center items-center gap-5 rounded-3xl  h-60 text-black'>
+                        <div key={index} className='basis-1/5 bg-cyan-50 flex flex-col justify-center text-center items-center gap-5 rounded-3xl  h-60 text-black'>
                             <img src={stock.imgUrl} alt={stock.name} className='h-20' />
                             <div>
                                 <p>{stock.name}</p>
@@ -73,7 +73,7 @@ function Section1() {
                                 <p>Market Rank: {stock.rank}</p>
                             </div>
                         </div>
-                    ))}                    
+                    ))}
                 </div>
             </div>
         </>
