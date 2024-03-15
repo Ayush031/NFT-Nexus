@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import { StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
-import { useParams } from 'react-router-dom';
 
-let { productName } = useParams();
 
 const product = {
-  name: productName,
+  name: "tee",
   price: '$192',
   href: '#',
   breadcrumbs: [
