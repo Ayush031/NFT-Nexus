@@ -1,9 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import diamond from '../assets/tdiamond.png'
 
 function Section1() {
-
     const markets = [{ Name: "Top Gainers" }, { Name: "Top Decliners" }, { Name: "New Markets" }, { Name: "Top by Market Cap" }]
     const [stocks, setStocks] = useState([]);
     useEffect(() => {

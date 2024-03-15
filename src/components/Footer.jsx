@@ -1,6 +1,4 @@
 import React from 'react'
-import logo from '../assets/tlogo.png'
-import { Link, NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
