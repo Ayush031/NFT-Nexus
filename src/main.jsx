@@ -15,9 +15,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />} >
       <Route path='/' element={<Section1 />} />
+      <Route path='/nftnexus' element={<Section1 />} />
       <Route path='merchandise' element={<Ecommerce />} />
       <Route path='marketplace' element={<Marketplace />} />
-      <Route path='community' element={<Community />}  />
+      <Route path='community' element={<Community />} />
       {/* <Route path='/merchandise/product/:productName' element={<Product />} /> */}
       < Route path='*' element={< NoPage />} />
     </Route>
