@@ -3,6 +3,8 @@ import logo from '../assets/tlogo.png'
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
+    
+
     return (
         <>
             <nav className='w-[100%] flex items-center h-[12%] justify-evenly pt-2  '>
