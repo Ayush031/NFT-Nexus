@@ -43,17 +43,17 @@ function Community() {
             img: m1
         },
         {
-            name: "Karan",
+            name: "Karishma ",
             time: "20 min ago",
             img: m1
         },
         {
-            name: "Abhishek",
+            name: "Ashleen",
             time: "40 min ago",
             img: m1
         },
         {
-            name: "Abhishrut",
+            name: "Roy",
             time: "1 hr ago",
             img: m1
         },
