@@ -133,7 +133,7 @@ function Community() {
                         <div className='items-center flex flex-col justify-center gap-3 pt-10 pb-10'>
                             <img src={m1} className='h-32 rounded-full' />
                             <div className='text-center'>
-                                <p>Ayush Kansal</p>
+                                <p>Aditya</p>
                                 <p className='bg-gradient-to-r from-pink-700 to-deep-purple-900'>@nftnexus</p>
                             </div>
                         </div>
