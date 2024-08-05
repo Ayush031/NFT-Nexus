@@ -33,7 +33,7 @@ function Section1() {
 
   return (
     <>
-      <div className="flex items-center justify-center gap-72 pt-10 h-[88%] w-[100%] ">
+      <div className="flex items-center justify-center gap-72 h-[88%] w-full">
         <div>
           <div>
             <p className="font-bold text-transparent text-6xl bg-clip-text text-white">
@@ -58,7 +58,7 @@ function Section1() {
         </div>
         <div className="flex justify-between basis-1/4 ">
           <div className="animate-moveUpDown">
-            <img src={diamond} width={200} className="" />
+            <img src={diamond} width={200} />
           </div>
           <div className="text-xl flex flex-col gap-4 mt-5">
             <p className="  text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-orange-600">
@@ -80,7 +80,7 @@ function Section1() {
             to="https://finance.yahoo.com/crypto/"
             className="text-red-300 text-xl"
           >
-            More Markets{" "}
+            More Markets
           </Link>
         </div>
         <div className="flex justify-start gap-8 mt-8">

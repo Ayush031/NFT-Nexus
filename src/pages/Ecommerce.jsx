@@ -1,7 +1,5 @@
 import React from 'react'
-import BrandCarousel from '../components/BrandCarousel.jsx';
 
-import TrendingMerch from '../components/TrendingMerch.jsx';
 import FeaturedThemes from '../components/FeaturedThemes.jsx'
 import FeaturedAvengers from '../components/FeaturedAvengers.jsx'
 import FeaturedProducts from '../components/FeaturedProducts.jsx';
@@ -21,12 +19,6 @@ import m12 from '../assets/Merch/m12.jpg'
 import m13 from '../assets/Merch/m13.jpg'
 import m14 from '../assets/Merch/m14.jpg'
 
-import thm1 from '../assets/Merch/thm1.webp'
-import thm2 from '../assets/Merch/thm2.jpg'
-import thm3 from '../assets/Merch/thm3.jpg'
-import thm4 from '../assets/Merch/thm1.avif'
-import thm5 from '../assets/Merch/thm2.webp'
-
 import b1 from '../assets/Brands/b1.webp'
 import b2 from '../assets/Brands/b2.webp'
 import b3 from '../assets/Brands/b3.webp'
@@ -34,17 +26,9 @@ import b4 from '../assets/Brands/b4.webp'
 import b5 from '../assets/Brands/b5.webp'
 import b6 from '../assets/Brands/b6.webp'
 
-import a1 from '../assets/a1.jpg'
-import a2 from '../assets/a2.jpg'
 import a3 from '../assets/a3.jpg'
-import a4 from '../assets/a4.jpg'
-import a5 from '../assets/a5.jpg'
-import a6 from '../assets/a6.jpg'
-import a7 from '../assets/a7.jpg'
 import a8 from '../assets/a8.jpg'
-import a9 from '../assets/a9.jpg'
 import a10 from '../assets/a10.jpg'
-import a11 from '../assets/a11.jpg'
 import a12 from '../assets/a12.jpg'
 import a13 from '../assets/a13.jpg'
 
@@ -132,18 +116,12 @@ function Ecommerce() {
         { img: a10, name: "Hulk" },
     ]
 
-    const brands = [
-        b1, b2, b3, b4, b5, b6
-    ]
-
     return (
         <>
         
-            <div className='pl-10 pr-10'>
-                {/* <TrendingMerch /> */}
+            <div className='p-10'>
                 <FeaturedThemes /> 
                 <FeaturedAvengers avengers={avengers} />
-                {/* <BrandCarousel brands={brands}  /> */}
                 <FeaturedProducts products={products} />
             </div>
         </>

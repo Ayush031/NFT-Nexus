@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/tlogo.png";
-import { NavLink } from "react-router-dom";
+import { LinkBtn } from "./Utility";
+
+const navLinks = ["Home", "MarketPlace", "Merchandise", "Community"];
 
 function Navbar() {
   return (
@@ -17,18 +19,9 @@ function Navbar() {
           className="text-gray-200 flex basis-1/3 h-12 bg-gray-600 rounded-2xl p-3 justify-center outline-none"
         />
         <div className="flex justify-evenly list-none basis-1/3">
-          <NavLink to="/" className="btn btn-outline btn-info">
-            Home
-          </NavLink>
-          <NavLink to="/marketplace" className="btn btn-outline btn-info">
-            MarketPlace
-          </NavLink>
-          <NavLink to="/merchandise" className="btn btn-outline btn-info">
-            Merchandise
-          </NavLink>
-          <NavLink to="/community" className="btn btn-outline btn-info">
-            Community
-          </NavLink>
+          {navLinks.map((link, index) => (
+            <LinkBtn link={link} index={index} />
+          ))}
         </div>
       </nav>
     </>
