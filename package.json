@@ -1,0 +1,15 @@
+{
+  "name": "nftnexus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm start",
+    "frontPack": "cd frontend && npm install",
+    "backPack": "cd backend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
