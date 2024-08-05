@@ -1,23 +1,33 @@
-import React from 'react'
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-import bgvideo from './assets/bgvideo.mp4'
+import bgvideo from './assets/bgvideo.mp4';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function Layout() {
   return (
-    <>
-      <div className='h-screen scroll-smooth w-full' >
-        <video autoPlay loop muted id='video' style={{ opacity: 0.4 }} >
-          <source src={bgvideo} type="video/mp4" />
-        </video>
+    <div className='relative min-h-screen overflow-x-hidden'>
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        id='video' 
+        className='absolute top-0 left-0 w-full h-full object-cover z-[-1] opacity-40' 
+      >
+        <source src={bgvideo} type="video/mp4" />
+      </video>
+      
+      {/* Content */}
+      <div className='relative z-10'>
         <Navbar />
-        <Outlet />
+        <main className='pt-16 pb-8'>
+          <Outlet />
+        </main>
         <Footer />
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
